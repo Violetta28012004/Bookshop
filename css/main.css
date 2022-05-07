@@ -1,0 +1,68 @@
+body {
+   padding: 0;
+   margin: 0;
+   color: black;
+   font-size: 40;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+.header {
+   width: 1000px;
+   margin: 0px auto;
+   /* border: 1px solid red; */
+}
+
+.title {
+   font-size: 60;
+   color: #16B0D5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.431);
+   text-align: center;
+   line-height: 30px;
+}
+
+nav{
+   background-color: hsl(0, 0%, 100%);
+}
+
+a { 
+   color: black;
+   text-decoration: none;
+}
+nav li {
+   display: inline-block;
+   vertical-align: top;
+   padding: 10px;
+   animation-delay: 3s;
+}
+
+nav li:hover {
+   background-color: #e8caef71;
+   cursor: pointer;
+   color: #f8f8f8;
+}
+
+nav ul {
+   padding: 0;
+   text-decoration: none;
+}
+
+h1 {
+   font-family: 'Lato', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.Obvodka{
+   margin: 0;
+}
+
+
